@@ -34,8 +34,7 @@ export default function EventDetails() {
                 <Clock className="mt-1 h-5 w-5 text-pink-600" />
                 <div>
                   <h4 className="text-lg font-semibold text-navy">Time</h4>
-                  <p className="text-gray-700">Ceremony: 2:00 PM</p>
-                  <p className="text-gray-700">Reception: 5:00 PM</p>
+                  <p className="text-gray-700">Reception: 3:00 PM</p>
                 </div>
               </div>
             </div>

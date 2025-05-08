@@ -58,7 +58,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center text-white">
-        <h1 className="mb-2 font-serif text-5xl font-bold md:text-9xl">Jennifer <br /> <span className="font-thin text-7xl">&</span> <br /> <span className="">Karo</span></h1>
+        <h1 className="mb-2 font-serif text-5xl leading-tight font-bold md:text-9xl">Jennifer <br /> <span className="font-thin animate-bounce absolute text-gold text-7xl">&</span> <br /> <span className="">Karo</span></h1>
         <p className="mb-8 text-xl md:text-2xl">Forever begins on June 07, 2025</p>
       </div>
 
