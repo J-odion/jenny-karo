@@ -3,12 +3,12 @@ import { Calendar, MapPin, Clock } from "lucide-react"
 
 export default function EventDetails() {
   return (
-    <section className="flex min-h-screen w-full items-center justify-center  py-16">
+    <section className="flex w-full items-center justify-center  py-16 ">
       <div className="container px-4">
         <h2 className="mb-12 text-center font-serif text-4xl font-bold text-navy md:text-5xl">Our Special Day</h2>
 
         {/* Details Section */}
-        <div className="mb-16 grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 my-40 items-center gap-8 md:grid-cols-2">
           <div className="space-y-6">
             <h3 className="font-serif text-2xl font-semibold text-navy">Event Details</h3>
 
@@ -25,8 +25,8 @@ export default function EventDetails() {
                 <MapPin className="mt-1 h-5 w-5 text-pink-600" />
                 <div>
                   <h4 className="text-lg font-semibold text-navy">Venue</h4>
-                  <p className="text-gray-700">The Grand Ballroom</p>
-                  <p className="text-gray-700">123 Wedding Lane, Celebration City</p>
+                  <p className="text-gray-700">@Karisma Parks and Gardens</p>
+                  <p className="text-gray-700">Femi Kila Streets, off Jabi-Sabojibi Road, Abuja</p>
                 </div>
               </div>
 
@@ -42,11 +42,11 @@ export default function EventDetails() {
 
           <div className="relative">
             <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
-              <img src="/123.jpg" alt="Venue" className="h-full w-full object-cover" />
+              <img src="/3142.jpeg" alt="Venue" className="h-full w-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/40 to-transparent"></div>
               <div className="absolute bottom-4 left-4 right-4 text-white">
-                <h3 className="text-xl font-semibold">The Grand Ballroom</h3>
-                <p>Where dreams come true</p>
+                <h3 className="text-xl font-semibold">@Karisma Parks and Gardens</h3>
+                {/* <p>Where dreams come true</p> */}
               </div>
             </div>
 
@@ -59,7 +59,7 @@ export default function EventDetails() {
         </div>
 
         {/* Schedule Section */}
-        <div className="mb-16 grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+        <div className="mb-16 grid grid-cols-1 my-40 items-center gap-8 md:grid-cols-2">
           <div className="order-2 md:order-1 relative">
             <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
               <img
@@ -110,7 +110,7 @@ export default function EventDetails() {
         </div>
 
         {/* Seating Map Section */}
-        <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 my-40 items-center gap-8 md:grid-cols-2">
           <div className="space-y-6">
             <h3 className="font-serif text-2xl font-semibold text-navy">Seating Arrangements</h3>
 
@@ -123,16 +123,13 @@ export default function EventDetails() {
                 Tables are arranged by family and friend groups. If you have any special seating requests, please
                 contact us directly.
               </p>
-              <button className="rounded-md bg-navy px-4 py-2 text-white transition-colors hover:bg-navy/80">
-                View Full Map
-              </button>
             </div>
           </div>
 
           <div className="relative">
             <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-xl md:h-[400px]">
               <img
-                src="/213.webp"
+                src="/sita.png"
                 alt="Seating Map"
                 className="h-full w-full object-cover"
               />
