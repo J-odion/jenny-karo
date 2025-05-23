@@ -82,28 +82,41 @@ export default function EventDetails() {
 
             <div className="space-y-4">
               <div className="border-l-2 border-gold pl-4">
-                <h4 className="text-lg font-semibold text-navy">1:30 PM</h4>
-                <p className="text-gray-700">Guest Arrival</p>
+                <h4 className="text-xs font-semibold text-navy">Musical interlude/opening prayers </h4>
+                <p className="text-gray-700 text-xs">Recognition of guest </p>
               </div>
 
               <div className="border-l-2 border-gold pl-4">
-                <h4 className="text-lg font-semibold text-navy">2:00 PM</h4>
-                <p className="text-gray-700">Ceremony Begins</p>
+                <h4 className="text-xs font-semibold text-navy">Groom’s family entrance</h4>
+                <p className="text-gray-700 text-xs">Bride’s Family entrance</p>
               </div>
 
               <div className="border-l-2 border-gold pl-4">
-                <h4 className="text-lg font-semibold text-navy">3:00 PM</h4>
-                <p className="text-gray-700">Cocktail Hour</p>
+                <h4 className="text-xs font-semibold text-navy">Groom’s first entrance with his guys </h4>
+                <p className="text-gray-700 text-xs">Bride’s first entrance with her ladies both pink and blue asoebi ladies</p>
               </div>
 
               <div className="border-l-2 border-gold pl-4">
-                <h4 className="text-lg font-semibold text-navy">5:00 PM</h4>
-                <p className="text-gray-700">Reception & Dinner</p>
+                <h4 className="font-semibold text-xs text-navy">Games  (while the couple change into their second outfit)</h4>
+                <p className="text-gray-700 text-xs">Bride and groom dance with the both bridal and groom party back to the hall </p>
               </div>
 
               <div className="border-l-2 border-gold pl-4">
-                <h4 className="text-lg font-semibold text-navy">9:00 PM</h4>
-                <p className="text-gray-700">Dancing & Celebration</p>
+                <p className=" font-semibold text-navy text-xs">⁠Games | Toast | ⁠⁠first dance </p>
+                <h4 className=" font-semibold text-navy text-xs">⁠⁠parents dance with the bride</h4>
+                <p className="text-gray-700 text-xs"> ⁠mother and son dance </p>
+              </div>
+
+              <div className="border-l-2 border-gold pl-4">
+                <p className="text-gray-700 text-xs"> ⁠couples and family dance  </p>
+                <h4 className="text-xs font-semibold text-navy"> ⁠couples and well wishers</h4>
+                <p className="text-gray-700 text-xs">⁠ ⁠couples and friends </p>
+              </div>
+
+              <div className="border-l-2 border-gold pl-4">
+                <p className="text-gray-700 text-xs"> ⁠⁠vote of thank  </p>
+                <h4 className="text-xs font-semibold text-navy"> ⁠⁠dance ( while we change to our after party outfit)</h4>
+                <p className="text-gray-700 text-xs">⁠ dance in with the dancers and gorilla for the after party to lunch it </p>
               </div>
             </div>
           </div>
